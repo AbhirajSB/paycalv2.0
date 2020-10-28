@@ -4,7 +4,8 @@ try:
     FTHR= float(THR)
     FHR= float(HR)
 except:
-    Print("Please only enter numerical digits") 
+    print("Please only enter numerical digits") 
+    quit()
 CH= input("How many hours per week are you meant to work, as per the contract?:")
 FCH=float(CH)
 if FTHR>FCH:
